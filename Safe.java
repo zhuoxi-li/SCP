@@ -7,7 +7,9 @@ public class Safe extends Classified {
         classification = "Safe";
     }
 
-    public void reations(){
-
-    }
+    public String[] initReactions = {
+            designation + " looks at you. \n It seems content in its containment.",
+            "It approaches you. It seems curious.",
+            "It ignores you."
+    };
 }
