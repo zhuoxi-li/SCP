@@ -9,7 +9,7 @@ public class Classification extends SCP{
         System.out.println(reaction);
     }
     public static void main(String[] args) {
-        Classification test = new Classification();
+        Classification test = new Classification(); // just me testing functions
         test.print_info();
 
     }
