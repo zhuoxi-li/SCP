@@ -7,9 +7,14 @@ public class Safe extends Classified {
         classification = "Safe";
     }
 
-    protected String[] initReactions = {
-            designation + " looks at you. \n It seems content in its containment.",
+    private String[] initReactions = {
+            "It looks at you. \n     It seems content in its containment.",
             "It approaches you. It seems curious.",
             "It ignores you."
     };
+
+    public void initial(){
+        int i = (int) (Math.random()*3);
+        System.out.println(designation + ": " + initReactions[i]);
+    }
 }
