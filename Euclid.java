@@ -6,9 +6,4 @@ public class Euclid extends Classified{
         classification = "Euclid";
     }
 
-    protected String[] initReactions = {
-            designation + " looks at you. \n It seems content in its containment.",
-            "It approaches you. It seems curious.",
-            "It ignores you."
-    };
 }
