@@ -53,4 +53,13 @@ public class Classified extends SCP{
         mainReactions.remove(removedReaction);
 
     }
+
+    public void replaceReaction(){
+        listReactions();
+        int replacedReaction = scanner.nextInt();
+        System.out.println("What is the new reaction? ");
+        String replacementReaction = scanner.nextLine();
+        mainReactions.remove(replacedReaction);
+        mainReactions.add(replacedReaction, replacementReaction);
+    }
 }

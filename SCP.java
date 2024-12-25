@@ -11,9 +11,4 @@ public class SCP {
 
     }
 
-    public void response(String[] reactions, int pos, int total){
-        if (pos > total-pos){
-            //TODO: ADD INFO AND REACTIONS + INTERACTION COUNTER FOR PLAYER
-        }
-    }
 }
