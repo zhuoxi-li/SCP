@@ -2,20 +2,15 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Classified extends SCP{
-    protected String reaction;
     protected int positiveInteractions;
     protected int negativeInteractions;
     Scanner scanner = new Scanner(System.in);
     ArrayList<String> initReactions = new ArrayList<String>();
     ArrayList<String> mainReactions = new ArrayList<String>();
 
-    Classified() {
-        this.reaction = "*It seems to be dormant.*";
-    }
 
     public void print_info(){
         System.out.println("SCP-" + designation + ", aka " + name + " is a " + classification + " class object.");
-        System.out.println(reaction);
     }
 
     public void incPositive(){
