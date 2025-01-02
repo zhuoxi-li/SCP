@@ -14,13 +14,13 @@ public class Classified extends SCP{
         System.out.println("SCP-" + designation + ", aka " + name + " is a " + classification + " class object.");
     }
 
-    public void incPositive(){
+    /*public void incPositive(){
         positiveInteractions++;
     }
 
     public void incNegative(){
         negativeInteractions++;
-    }
+    }*/
 
     public static void main(String[] args) {
         Classified test = new Classified();
