@@ -2,6 +2,9 @@ public class Entities {
     public Safe scp999 = new Safe("999", "Tickle Monster");
     public Safe scp168 = new Safe("168", "CALCULATOR");
     public Euclid scp173 = new Euclid("173", "The Sculpture", true);
+    public Entities(){
+
+    }
     public void initSetup() {
         // SCP 999
         scp999.addPReaction(new String[]{ // positive reactions

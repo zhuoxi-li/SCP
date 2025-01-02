@@ -7,7 +7,7 @@ public class Main extends Entities{
     public createNewSCP(Entities SCP){
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("please input a [name], [species], [age], [place/setting] and either [true] or [false]");
+        System.out.println("please input and press enter for a [designation], [name], [true/false], [classification]");
         String aName = scan.nextLine();
         String aSpecies = scan.nextLine();
         int age = scan.nextInt();
@@ -16,12 +16,14 @@ public class Main extends Entities{
     }
 
     public intakeSCP(Entities SCP){
-        listOfEntities.add(SCP);
+        Ents.add(SCP);
     }
 
     public static void main(String[] args) {
         Entities listOfEntities = new Entities();
         listOfEntities.initSetup();
+
+
 
 
 
