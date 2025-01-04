@@ -183,7 +183,7 @@ public class Entities {
         scp049.addReaction(new String[]{ // positive reactions
             "\"Ah, salut, savant!\" It greets, smiling behind it's bird mask. \n" +
                 "You ask if it can speak English. \n" +
-                    "\"Oh! The King's English.\", It responds. Of course, of course I can.",
+                    "\"Oh! The King's English.\", It responds. \"Of course, of course I can.\"",
             "It's quite chatty, flipping from English to Old French when it's excited.",
             "It's excited to meet another Doctor.",
             "It shares its notes with you. You can't read a thing."
