@@ -33,12 +33,6 @@ public class Main extends Entities{
             System.out.println((i +1) + ": " + listOfEntities.allSCPS[i]);
         }
         System.out.println((listOfEntities.allSCPS.length + 1) + ": quit (press 0)");
-        int chosenSCP = s.nextInt();
-        while (chosenSCP != 0){
-            Classified currentSCP = listOfEntities.allSCPS[chosenSCP];
-
-
-        }
 
 
 
