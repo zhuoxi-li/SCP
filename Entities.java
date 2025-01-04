@@ -29,7 +29,8 @@ public class Entities {
 
         scp999.addNReaction(new String[]{ // negative reactions
             "You trip and fall. It whimpers as it slides off of you.",
-            "You watch as it quivers. It seems apologetic."
+            "You watch as it quivers.",
+            "It seems apologetic."
         });
         scp999.check(new String[]{
             "It's orange.",
@@ -106,7 +107,8 @@ public class Entities {
         });
         scp_J.addPReaction(new String[]{ // positive reactions
             "Why would you be mad at a rock?",
-            "It's just a rock."
+            "It's just a rock.",
+            "You leave the rock alone."
         });
         scp_J.addNReaction(new String[]{ // negative reactions
             "It's making you procrastinate. You swear it is."
@@ -154,9 +156,9 @@ public class Entities {
             "You forget about it.",
         });
         scp055.addNReaction(new String[]{ // negative reactions
-            "It's still not there. You get annoyed. \n" +
-                "What were you annoyed about again? \n" +
-                    "You shrug it off."
+            "It's still not there. You get annoyed.",
+            "What were you annoyed about again?",
+            "You shrug it off."
         });
         scp055.check(new String[]{
             "You try to look for it. \n" +
@@ -194,7 +196,7 @@ public class Entities {
             "\"Of course you can't read it. What did I expect?\" It mutters.",
             "It seems to glare at you, muttering about you being infected with 'Pestilence.' \n" +
             "You might want to keep away.",
-            "It suddenly approaches you. \"I ought to rid thee of your Pestilence. I ought to cure you.\" \n" +
+            "It suddenly approaches you. \"I ought to rid thee of your Pestilence. I ought to cure you.\" \n \n" +
             "You run."
 
         });
