@@ -6,13 +6,14 @@ public class Entities {
     public Euclid scp096 = new Euclid("096", "SCP-____-J", true);
     public Keter scp055 = new Keter("055", " ", true);
     public Euclid scp049 = new Euclid("049", "Plague Doctor", true);
+    public Keter scp255 = new Keter("255","Octopus Bee",true);
 
     public Entities(){
     }
 
     public Classified[] allSCPS = {
             scp049, scp055, scp096,
-            scp168, scp173, scp999, scp_J};
+            scp168, scp173, scp999, scp_J, scp255};
     public void initSetup() {
         // SCP 999
         scp999.addReaction(new String[]{ // positive reactions
