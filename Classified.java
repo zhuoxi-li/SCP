@@ -27,7 +27,7 @@ public class Classified extends SCP{
 
     public void actions(String[] inputs){ // for sake of customization
         for (int i = 0; i < inputs.length; i++){
-            choices.add(inputs[i]);
+            choices.add(inputs[i]);      ///adds indiv reactions as elements under object
         }
     }
 

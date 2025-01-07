@@ -16,7 +16,7 @@ public class Entities {
             scp168, scp173, scp999, scp_J, scp255};
     public void initSetup() {
         // SCP 999
-        scp999.addReaction(new String[]{ // positive reactions
+        scp999.addReaction(new String[]{ // positive reactions   intro to SCP interactions
             "It moves towards you.",
             "Its arms are outstretched. Seems like it wants a hug.",
             "It giggles.",

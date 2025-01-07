@@ -1,6 +1,11 @@
 import java.util.Scanner;
 public class Main extends Entities{
 
+    /*
+    * only works like this, apparently
+    * purpose: Simulate a worker logging in/interacting with SCP objects listed
+    * */
+
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         Entities listOfEntities = new Entities();
@@ -25,8 +30,9 @@ public class Main extends Entities{
         System.out.println("...");
         System.out.println("Welcome, Doctor Evan Golden. Press any key to continue.");
         s.nextLine();
+
         System.out.println("Which SCP do you plan to visit?");
-        for (int l = 0; l < listOfEntities.allSCPS.length; l++) {
+        for (int l = 0; l < listOfEntities.allSCPS.length; l++) {    //Entity object access array length?
             System.out.println((l +1) + ": " + listOfEntities.allSCPS[l]);
         }
         System.out.println("0: quit (press 0)");
@@ -96,6 +102,9 @@ public class Main extends Entities{
                 }
             System.out.println("0: quit (press 0)");
             chosenSCP = s.nextInt() - 1;
+
+            //not int, throws InputMismatchException. Catch it!!
+
         }
 
 
