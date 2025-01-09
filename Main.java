@@ -38,18 +38,18 @@ public class Main extends Entities{
         System.out.println("0: quit (press 0)");
         int chosenSCP = s.nextInt() - 1;
         while (chosenSCP != -1){
-            for (int i = 0; i < listOfEntities.allSCPS[chosenSCP].startReactions.toArray().length - 1; i++) {
+            for (int i = 0; i < listOfEntities.allSCPS[chosenSCP].startReactions.toArray().length - 1; i++) {  //num input
                 System.out.println(listOfEntities.allSCPS[chosenSCP].startReactions.get(i));
                 }
             System.out.println(listOfEntities.allSCPS[chosenSCP].choices.getFirst());
             System.out.println("2. Don't.");
-            int internalChoice1 = s.nextInt();
+            int internalChoice1 = s.nextInt();                                                                 //num input
             if (internalChoice1 == 1) {
                 System.out.println(listOfEntities.allSCPS[chosenSCP].startReactions.getLast());
                 System.out.println(listOfEntities.allSCPS[chosenSCP].choices.getLast());
                 System.out.println("2. Don't.");
                 System.out.println("3. Check.");
-                int internalChoice2 = s.nextInt();
+                int internalChoice2 = s.nextInt();                                                              //num input
                 if (internalChoice2 == 1) {
                     for (int j = 0; j < listOfEntities.allSCPS[chosenSCP].negativeReactions.toArray().length; j++) {
                         System.out.println(listOfEntities.allSCPS[chosenSCP].negativeReactions.get(j));
